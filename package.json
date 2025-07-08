@@ -1,15 +1,19 @@
 {
   "name": "turma115-uc10",
   "version": "1.0.0",
+  "description": "Projeto para testes com Jest",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Thiago",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "jest": "^30.0.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
+
