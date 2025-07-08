@@ -8,10 +8,10 @@
 
 function isEmpty(valor) {
 
-    if (valor.length) {
-
+    if ((Array.isArray(valor) && valor.length===0) || valor === 'undefined' || valor === "" || valor === null ) {
+        return true
     }
-    return true
+    return false
 
 }
 
