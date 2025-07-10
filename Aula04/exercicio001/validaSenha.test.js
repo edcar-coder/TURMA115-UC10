@@ -1,4 +1,4 @@
-const validaSenha = require('../validaSenha');
+const validaSenha = require('./validaSenha');
 
 describe('validaSenha', () => {
   test('senha válida com letras e números', () => {
