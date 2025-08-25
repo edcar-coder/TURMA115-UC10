@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffeeee;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .code {
+    font-size: 6rem;
+    color: #cc0000;
+    margin: 0;
+  }
+  
+  .message {
+    font-size: 1.5rem;
+    color: #990000;
+    margin: 10px 0;
+  }
+  
+  .link {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #cc0000;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #660000;
+  }
+  
